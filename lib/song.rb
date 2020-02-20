@@ -40,7 +40,7 @@ class Song
     
   @@genre_hash = Hash[@@genres.each do |genre,count| 
     if @@genre.uniq,
-      return @@genre.count
+      return @@genre.count]
     else
     end
   end
