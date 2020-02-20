@@ -11,7 +11,7 @@ class Song
   
   @@genre_hash = {}
   
-  @@artist_hash  {}
+  # @@artist_hash  {}
   
   def initialize(name,artist,genre)
     
