@@ -39,9 +39,11 @@ class Song
    @@genre_hash << @@count
     
   end
+  
+  def self.artist_count
+    
+    
+  end
 end
 
-#song = Song.new("Corduroy","Pearl Jam","Alternative")
-  
-#puts song.artist
-#puts song.genre
+
