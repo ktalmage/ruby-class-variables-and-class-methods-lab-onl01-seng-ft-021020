@@ -9,7 +9,7 @@ class Song
   
   @@genres = []
   
-  @@genre_hash = {}
+  # @@genre_hash = {}
   
   # @@artist_hash  {}
   
