@@ -37,8 +37,17 @@ class Song
   end
   
   def self.genre_count
-    
-  @@genre_hash = Hash[@@genres.collect {|genre,count| [self.genres, self.count]}]
+  
+  genre_hash = {}
+  
+  @@genres.each do |genre|
+    if genre_hash[genre]
+      genre_hash[genre] += 1
+      binding.pry
+    end
+  end
+  
+  # @@genre_hash = Hash[@@genres.collect {|genre,count| [self.genres, self.count]}]
   end
   
 end
