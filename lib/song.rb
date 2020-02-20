@@ -38,10 +38,8 @@ class Song
   
   def self.genre_count
     
-  
-   
-   @@genre_hash = Hash[@@genres.collect {|genre,count| [@@genres,@@count]}]
- end
+  @@genre_hash = Hash[@@genres.collect {|genre,count| [@@genres,@@count]}]
+  end
   end
   
 #   def self.artist_count
