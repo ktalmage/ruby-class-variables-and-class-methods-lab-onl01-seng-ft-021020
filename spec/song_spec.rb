@@ -50,9 +50,9 @@ describe "Song" do
     it "has a class variable, @@genres, that contains all of the genres of existing songs" do 
       expect(Song.class_variable_get(:@@genres)).to match(["rap", "rap", "pop"])
     end
+  describe ".count" do 
   end
 
-  describe ".count" do 
     it "is a class method that returns that number of songs created" do
       expect(Song.count).to eq(3)
     end
