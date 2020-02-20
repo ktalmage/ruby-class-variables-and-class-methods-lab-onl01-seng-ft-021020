@@ -47,7 +47,7 @@ class Song
       genre_hash[genre] = 1
     end
   end
-  
+  genre_hash
   # @@genre_hash = Hash[@@genres.collect {|genre,count| [self.genres, self.count]}]
   end
   
